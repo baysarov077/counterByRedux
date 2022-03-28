@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 440px;
+}
+button {
+  padding: 0;
+  border: 0;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.buttons {
+  font-size: 20px;
+  
+  width: 440px;
+  display: flex;
+  justify-content: space-between;
+}
+.decrement {
+  background-color: red;
+}
+.increment {
+  background-color: green;
+}
+.reset {
+  background-color: #000;
+}
+.random {
+  background-color: darkblue;
+}
+.counter {
+  width: 440px;
+  text-align: center;
+  font-size: 154px;
+}

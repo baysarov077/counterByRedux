@@ -20,7 +20,7 @@ const reducer = (state = initialState, action) => {
     case 'reset':
       return {...state, number: state.number = 0}
     case 'random':
-      return {...state, number: state.number + Math.floor(Math.random()*100)}
+      return {...state, number: state.number + action.payload}
     default: 
       return state
   }
